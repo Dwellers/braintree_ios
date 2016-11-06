@@ -118,8 +118,16 @@ NSString *const BTConfigurationPayPalNonLiveDefaultValueMerchantUserAgreementUrl
 
 - (NSArray *)applePaySupportedNetworks {
 #if BT_ENABLE_APPLE_PAY
-    return [[self.configurationParser responseParserForKey:BTConfigurationKeyApplePay] arrayForKey:@"supportedNetworks"
+    NSArray *values = [[self.configurationParser responseParserForKey:BTConfigurationKeyApplePay] arrayForKey:@"supportedNetworks"
                                                 withValueTransformer:[BTClientTokenApplePayPaymentNetworksValueTransformer sharedInstance]];
+    
+    NSMutableArray *networks = [NSMutableArray new];
+    for (NSString *network in values) {
+        if (network && ![network isKindOfClass:NSNull.class]) {
+            [networks addObject:network];
+        }
+    }
+    return networks;
 #else
     return @[];
 #endif
