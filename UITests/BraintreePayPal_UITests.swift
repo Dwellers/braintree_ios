@@ -54,7 +54,7 @@ class BraintreePayPal_FuturePayment_UITests: XCTestCase {
         // Close button has no accessibility helper
         // Purposely don't use the webviewElementsQuery variable
         // Reevaluate the elements query after the page load to get the close button
-        app.webViews.buttons.elementBoundByIndex(0).forceTapElement()
+        app.webViews.buttons.element(boundBy: 0).forceTapElement()
         
         self.waitForElementToAppear(app.buttons["PayPal (future payment button)"])
         
@@ -130,6 +130,7 @@ class BraintreePayPal_BillingAgreement_UITests: XCTestCase {
         
         self.waitForElementToAppear(app.buttons["Got a nonce. Tap to make a transaction."])
         
+        XCTAssertTrue(app.textViews["DismissalOfViewController Called"].exists);
         XCTAssertTrue(app.buttons["Got a nonce. Tap to make a transaction."].exists);
     }
     
@@ -142,6 +143,18 @@ class BraintreePayPal_BillingAgreement_UITests: XCTestCase {
         
         self.waitForElementToAppear(app.buttons["Billing Agreement with PayPal"])
         
+        XCTAssertTrue(app.textViews["DismissalOfViewController Called"].exists);
+        XCTAssertTrue(app.buttons["Cancelled"].exists);
+    }
+
+    func testPayPal_billingAgreement_cancelsSuccessfully_whenTappingSFSafariViewControllerDoneButton() {
+        self.waitForElementToAppear(app.buttons["Done"])
+
+        app.buttons["Done"].forceTapElement()
+
+        self.waitForElementToAppear(app.buttons["Billing Agreement with PayPal"])
+
+        XCTAssertTrue(app.textViews["DismissalOfViewController Called"].exists);
         XCTAssertTrue(app.buttons["Cancelled"].exists);
     }
 }

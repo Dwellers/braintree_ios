@@ -14,6 +14,7 @@
 		031B94D01C3485ED00F136C8 /* EXPMatchers+haveKerning.m in Sources */ = {isa = PBXBuildFile; fileRef = 031B94C31C34822800F136C8 /* EXPMatchers+haveKerning.m */; };
 		031B94D11C34863200F136C8 /* BTUISpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 031B94C01C34822800F136C8 /* BTUISpec.m */; };
 		0325AC241C289B5F00E90999 /* BraintreeThreeDSecure_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0325AC231C289B5F00E90999 /* BraintreeThreeDSecure_UITests.swift */; };
+		032C26881DDEEB5000BBC1C2 /* BTDropInUtil_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C26871DDEEB5000BBC1C2 /* BTDropInUtil_Tests.swift */; };
 		032D3A721C580B09000E5F6B /* PPDataCollectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 032D3A711C580B09000E5F6B /* PPDataCollectorTest.m */; };
 		033800101C248B9C00CFF1D9 /* BraintreeDropInLegacy_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0338000F1C248B9C00CFF1D9 /* BraintreeDropInLegacy_UITests.swift */; };
 		035945571BE96345002116BB /* BTUIVenmoMonogramCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 035945551BE96345002116BB /* BTUIVenmoMonogramCardView.h */; };
@@ -342,6 +343,12 @@
 		A5D3A5761C20975F003A25A1 /* PPFPTIDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D3A56E1C20975F003A25A1 /* PPFPTIDataTest.m */; };
 		A5D3A5771C20975F003A25A1 /* PPFPTITrackerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D3A56F1C20975F003A25A1 /* PPFPTITrackerTest.m */; };
 		A5D3A5A41C20BEE1003A25A1 /* PayPalOneTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50C3B6F1C1A29C500612D90 /* PayPalOneTouch.framework */; };
+		A5F444AE1E89906700B2B4F7 /* BTPayPalCreditFinancing.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F444AD1E89903E00B2B4F7 /* BTPayPalCreditFinancing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5FE18311E799EDF00CBE9C7 /* BTPayPalCreditFinancing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FE18301E799EDF00CBE9C7 /* BTPayPalCreditFinancing.m */; };
+		A5FE18331E79A05D00CBE9C7 /* BTPayPalCreditFinancing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FE18301E799EDF00CBE9C7 /* BTPayPalCreditFinancing.m */; };
+		A5FE18351E79B75500CBE9C7 /* BTPayPalCreditFinancingAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FE18341E79B75500CBE9C7 /* BTPayPalCreditFinancingAmount.m */; };
+		A5FE18361E79B75500CBE9C7 /* BTPayPalCreditFinancingAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FE18341E79B75500CBE9C7 /* BTPayPalCreditFinancingAmount.m */; };
+		A5FE183D1E79D5E700CBE9C7 /* BraintreeDemoPayPalCreditPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FE183C1E79D5E700CBE9C7 /* BraintreeDemoPayPalCreditPaymentViewController.m */; };
 		A70241B91C598BA200875DB8 /* BTUIPayPalWordmarkVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = A70241B71C598BA200875DB8 /* BTUIPayPalWordmarkVectorArtView.h */; };
 		A70241BA1C598BA200875DB8 /* BTUIPayPalWordmarkVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = A70241B81C598BA200875DB8 /* BTUIPayPalWordmarkVectorArtView.m */; };
 		A70241BD1C5A9A2F00875DB8 /* BTUIPayPalCompactButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A70241BB1C5A9A2F00875DB8 /* BTUIPayPalCompactButton.h */; };
@@ -685,6 +692,7 @@
 		B61F67801CE4C20F0051A3BD /* BTConfiguration+DataCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = B61F677E1CE4C20F0051A3BD /* BTConfiguration+DataCollector.h */; };
 		B61F67811CE4C20F0051A3BD /* BTConfiguration+DataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = B61F677F1CE4C20F0051A3BD /* BTConfiguration+DataCollector.m */; };
 		B67F983A1D762177007C1903 /* BTMacroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B67F98391D762177007C1903 /* BTMacroTests.m */; };
+		EEF1DE891E858A8D001BB924 /* BTEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF1DE881E858A31001BB924 /* BTEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD51728B52E751D1E5DC85F7 /* libPods-Tests-IntegrationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D242087B7E38C2B838C8866E /* libPods-Tests-IntegrationTests.a */; };
 /* End PBXBuildFile section */
 
@@ -1142,6 +1150,7 @@
 		031B94C21C34822800F136C8 /* EXPMatchers+haveKerning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+haveKerning.h"; sourceTree = "<group>"; };
 		031B94C31C34822800F136C8 /* EXPMatchers+haveKerning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+haveKerning.m"; sourceTree = "<group>"; };
 		0325AC231C289B5F00E90999 /* BraintreeThreeDSecure_UITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BraintreeThreeDSecure_UITests.swift; sourceTree = "<group>"; };
+		032C26871DDEEB5000BBC1C2 /* BTDropInUtil_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTDropInUtil_Tests.swift; sourceTree = "<group>"; };
 		032D3A711C580B09000E5F6B /* PPDataCollectorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDataCollectorTest.m; sourceTree = "<group>"; };
 		0338000F1C248B9C00CFF1D9 /* BraintreeDropInLegacy_UITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BraintreeDropInLegacy_UITests.swift; sourceTree = "<group>"; };
 		035945551BE96345002116BB /* BTUIVenmoMonogramCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUIVenmoMonogramCardView.h; sourceTree = "<group>"; };
@@ -1283,6 +1292,11 @@
 		A51527371D9EEFE800FF3F77 /* BraintreeDemoDropInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraintreeDemoDropInViewController.m; sourceTree = "<group>"; };
 		A5D3A56E1C20975F003A25A1 /* PPFPTIDataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPFPTIDataTest.m; sourceTree = "<group>"; };
 		A5D3A56F1C20975F003A25A1 /* PPFPTITrackerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPFPTITrackerTest.m; sourceTree = "<group>"; };
+		A5F444AD1E89903E00B2B4F7 /* BTPayPalCreditFinancing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTPayPalCreditFinancing.h; sourceTree = "<group>"; };
+		A5FE18301E799EDF00CBE9C7 /* BTPayPalCreditFinancing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPayPalCreditFinancing.m; sourceTree = "<group>"; };
+		A5FE18341E79B75500CBE9C7 /* BTPayPalCreditFinancingAmount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPayPalCreditFinancingAmount.m; sourceTree = "<group>"; };
+		A5FE183B1E79D5E700CBE9C7 /* BraintreeDemoPayPalCreditPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraintreeDemoPayPalCreditPaymentViewController.h; sourceTree = "<group>"; };
+		A5FE183C1E79D5E700CBE9C7 /* BraintreeDemoPayPalCreditPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraintreeDemoPayPalCreditPaymentViewController.m; sourceTree = "<group>"; };
 		A70241B71C598BA200875DB8 /* BTUIPayPalWordmarkVectorArtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUIPayPalWordmarkVectorArtView.h; sourceTree = "<group>"; };
 		A70241B81C598BA200875DB8 /* BTUIPayPalWordmarkVectorArtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUIPayPalWordmarkVectorArtView.m; sourceTree = "<group>"; };
 		A70241BB1C5A9A2F00875DB8 /* BTUIPayPalCompactButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTUIPayPalCompactButton.h; path = "../Views/Payments Components/BTUIPayPalCompactButton.h"; sourceTree = "<group>"; };
@@ -1740,6 +1754,7 @@
 		D242087B7E38C2B838C8866E /* libPods-Tests-IntegrationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-IntegrationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5477E9CCBB2B1B37661129D /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		D9AFC14FFCF2029AE39FA3BA /* Pods-Tests-IntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-IntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-IntegrationTests/Pods-Tests-IntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEF1DE881E858A31001BB924 /* BTEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTEnums.h; sourceTree = "<group>"; };
 		F856ADC418A9254523A85526 /* Pods-Tests-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-UnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-UnitTests/Pods-Tests-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD5B458BFE02563982017D5E /* libPods-Tests-UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -2042,10 +2057,12 @@
 				A7B7989B1C233C57001327FA /* BTConfiguration_Tests.swift */,
 				844ED5E61BCC3F0B002B590C /* BTDataCollector_Tests.swift */,
 				A7BC50BE1C29F6600024C870 /* BTDropInErrorState_Tests.m */,
+				032C26871DDEEB5000BBC1C2 /* BTDropInUtil_Tests.swift */,
 				41B787BC1BAA20DB001AD351 /* BTDropInViewController_Tests.swift */,
 				A7C823071B4DA9D7009D45D6 /* BTHTTPSpec.m */,
 				16CD2E9E1B4077FC00E68495 /* BTJSON_Tests.swift */,
 				A7BC50BA1C29E4CD0024C870 /* BTLogger_Internal_Tests.m */,
+				B67F98391D762177007C1903 /* BTMacroTests.m */,
 				A7AF0F611C222F9400B3ADC6 /* BTPaymentButton_Tests.swift */,
 				4149C91C1BA218830090665E /* BTPaymentMethodNonceParser_Tests.swift */,
 				A7A6DD061B4308EB008857E1 /* BTPayPalDriver_Tests.swift */,
@@ -2061,7 +2078,6 @@
 				16CD2EA01B4077FC00E68495 /* Info.plist */,
 				A7B462431C3C90DB00048423 /* PayPalOneTouch */,
 				A7E6E8E11B420D0C004CFA95 /* UnitTests-Bridging-Header.h */,
-				B67F98391D762177007C1903 /* BTMacroTests.m */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -2072,6 +2088,8 @@
 				A7B1C14A1B66E11C00ED063C /* BTConfiguration+PayPal.m */,
 				A7102E191B5085BB0007D40A /* BTPayPalAccountNonce_Internal.h */,
 				16E17D1B1B3DE4580024F9AB /* BTPayPalAccountNonce.m */,
+				A5FE18301E799EDF00CBE9C7 /* BTPayPalCreditFinancing.m */,
+				A5FE18341E79B75500CBE9C7 /* BTPayPalCreditFinancingAmount.m */,
 				A734D95E1B4C4C0700FE0E1B /* BTPayPalDriver_Internal.h */,
 				16C42B6D1B3DE0550028A3B4 /* BTPayPalDriver.m */,
 				16E17D271B3DFA0F0024F9AB /* BTPayPalRequest.m */,
@@ -2199,6 +2217,7 @@
 				A72E134F1B446DED002703DD /* BTClientMetadata.h */,
 				A7D674711B84FDB400ED6C00 /* BTClientToken.h */,
 				A7B1C1411B66B3D000ED063C /* BTConfiguration.h */,
+				EEF1DE881E858A31001BB924 /* BTEnums.h */,
 				A77346251B7AA4F10083EC8D /* BTErrors.h */,
 				A79AFA841B5721A2007B1DF1 /* BTHTTPErrors.h */,
 				A79033A51B4AF360004C8234 /* BTJSON.h */,
@@ -2233,6 +2252,7 @@
 				16C42B6C1B3DE0550028A3B4 /* BTPayPalDriver.h */,
 				16E17D1A1B3DE4570024F9AB /* BTPayPalAccountNonce.h */,
 				2D941D3A1B59C76A0016EFB4 /* BraintreePayPal.h */,
+				A5F444AD1E89903E00B2B4F7 /* BTPayPalCreditFinancing.h */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -2404,6 +2424,15 @@
 			path = "Drop In";
 			sourceTree = "<group>";
 		};
+		A5FE18371E79D57F00CBE9C7 /* PayPal - Credit */ = {
+			isa = PBXGroup;
+			children = (
+				A5FE183B1E79D5E700CBE9C7 /* BraintreeDemoPayPalCreditPaymentViewController.h */,
+				A5FE183C1E79D5E700CBE9C7 /* BraintreeDemoPayPalCreditPaymentViewController.m */,
+			);
+			path = "PayPal - Credit";
+			sourceTree = "<group>";
+		};
 		A715593F1B729297007DE6F0 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -2564,6 +2593,7 @@
 				A7334F221BA38AF50083C411 /* PayPal - Billing Agreement */,
 				A76B19DE1B79708900452CFA /* PayPal - BTUIPayPalButton */,
 				A76B19E11B79708900452CFA /* PayPal - Checkout */,
+				A5FE18371E79D57F00CBE9C7 /* PayPal - Credit */,
 				A76B19E41B79708900452CFA /* PayPal - Custom Button */,
 				03F54E0F1C499E1200F11033 /* PayPal - Force Future Payment */,
 				A76B19EA1B79708900452CFA /* PayPal - Scopes */,
@@ -3183,6 +3213,7 @@
 				2D941D411B59C8E60016EFB4 /* BTPayPalRequest.h in Headers */,
 				2D941D441B59C8E60016EFB4 /* BTPayPalDriver.h in Headers */,
 				2D941D4B1B59C8E60016EFB4 /* BTPayPalAccountNonce_Internal.h in Headers */,
+				A5F444AE1E89906700B2B4F7 /* BTPayPalCreditFinancing.h in Headers */,
 				2D941D461B59C8E60016EFB4 /* BTPayPalRequestFactory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3212,6 +3243,7 @@
 				A7D674731B84FDB400ED6C00 /* BTClientToken.h in Headers */,
 				2DE12F431B59C36900EA1BCF /* BTAnalyticsMetadata.h in Headers */,
 				A77346261B7AA4F10083EC8D /* BTErrors.h in Headers */,
+				EEF1DE891E858A8D001BB924 /* BTEnums.h in Headers */,
 				2DE12F581B59C36900EA1BCF /* BTPostalAddress.h in Headers */,
 				A7B1C1531B66F79900ED063C /* BTAppSwitch.h in Headers */,
 				A7B1C1431B66B3D000ED063C /* BTConfiguration.h in Headers */,
@@ -3850,14 +3882,16 @@
 			attributes = {
 				CLASSPREFIX = BT;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				TargetAttributes = {
 					03F8B2651C23976000FD184B = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
 						TestTargetID = A76B198A1B79707700452CFA;
 					};
 					16CD2E9B1B4077FB00E68495 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0820;
 						TestTargetID = A76B198A1B79707700452CFA;
 					};
 					2D941D371B59C76A0016EFB4 = {
@@ -4328,6 +4362,7 @@
 				848470E21BE81893009B12AE /* BTFakeHTTP.m in Sources */,
 				A71F7DE71B6180A3005DA1B0 /* BTVenmoDriver_Tests.swift in Sources */,
 				4149C91D1BA218830090665E /* BTPaymentMethodNonceParser_Tests.swift in Sources */,
+				032C26881DDEEB5000BBC1C2 /* BTDropInUtil_Tests.swift in Sources */,
 				A7A6DD071B4308EB008857E1 /* BTPayPalDriver_Tests.swift in Sources */,
 				A74BCF031BE14C7000DC1CAE /* BTThreeDSecureDriver_Tests.swift in Sources */,
 				031B94CC1C3482CC00F136C8 /* BTUICardExpirationValidatorSpec.m in Sources */,
@@ -4386,7 +4421,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FE18361E79B75500CBE9C7 /* BTPayPalCreditFinancingAmount.m in Sources */,
 				A7B1C14C1B66E11C00ED063C /* BTConfiguration+PayPal.m in Sources */,
+				A5FE18311E799EDF00CBE9C7 /* BTPayPalCreditFinancing.m in Sources */,
 				2D941D451B59C8E60016EFB4 /* BTPayPalDriver.m in Sources */,
 				2D941D421B59C8E60016EFB4 /* BTPayPalRequest.m in Sources */,
 				2D941D4D1B59C8E60016EFB4 /* BTPayPalAccountNonce.m in Sources */,
@@ -4488,6 +4525,7 @@
 				4174050A1BB0869C008A5DEA /* BTUIThemedView.m in Sources */,
 				A76D7C3A1BB31A2B0000FA6A /* BTDataCollector.m in Sources */,
 				4174050C1BB0869C008A5DEA /* BTUIVectorArtView.m in Sources */,
+				A5FE18331E79A05D00CBE9C7 /* BTPayPalCreditFinancing.m in Sources */,
 				4174050E1BB0869C008A5DEA /* BTUICardCvvField.m in Sources */,
 				417405101BB0869C008A5DEA /* BTUICardExpiryField.m in Sources */,
 				417405121BB0869D008A5DEA /* BTUICardNumberField.m in Sources */,
@@ -4507,6 +4545,7 @@
 				417405221BB0869D008A5DEA /* BTUICVVFrontVectorArtView.m in Sources */,
 				46E2F0A01CF47D3300A5789D /* BTUIUnionPayVectorArtView.m in Sources */,
 				41BC340D1BF695FC00161106 /* BTPaymentRequest.m in Sources */,
+				A5FE18351E79B75500CBE9C7 /* BTPayPalCreditFinancingAmount.m in Sources */,
 				417405241BB0869D008A5DEA /* BTUICardVectorArtView.m in Sources */,
 				417405261BB0869D008A5DEA /* BTUICoinbaseMonogramCardView.m in Sources */,
 				417405281BB0869D008A5DEA /* BTUICoinbaseWordmarkVectorArtView.m in Sources */,
@@ -4676,6 +4715,7 @@
 				A76B1A351B79708A00452CFA /* main.m in Sources */,
 				A76B1A111B79708A00452CFA /* BraintreeDemoIntegrationViewController.m in Sources */,
 				A73088361B86872C009487BA /* BraintreeDemoThreeDSecureViewController.m in Sources */,
+				A5FE183D1E79D5E700CBE9C7 /* BraintreeDemoPayPalCreditPaymentViewController.m in Sources */,
 				A76B1A0F1B79708A00452CFA /* BraintreeDemoAppDelegate.m in Sources */,
 				A7A094F81B828F4600D732CC /* BraintreeDemoBTUIPayPalButtonViewController.m in Sources */,
 				A76B1A141B79708A00452CFA /* BraintreeDemoSettings.m in Sources */,
@@ -5279,7 +5319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.braintreepayments.UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Demo;
 				USES_XCTRUNNER = YES;
 			};
@@ -5320,7 +5360,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.braintreepayments.UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Demo;
 				USES_XCTRUNNER = YES;
 				VALIDATE_PRODUCT = YES;
@@ -5364,7 +5404,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = UnitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.braintreepayments.Braintree-Unit-Tests";
@@ -5373,7 +5413,7 @@
 				SRCROOT = "$(PROJECT_DIR)";
 				SWIFT_OBJC_BRIDGING_HEADER = "UnitTests/UnitTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
 			name = Debug;
@@ -5410,7 +5450,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = UnitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.braintreepayments.Braintree-Unit-Tests";
@@ -5418,7 +5458,7 @@
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SRCROOT = "$(PROJECT_DIR)";
 				SWIFT_OBJC_BRIDGING_HEADER = "UnitTests/UnitTests-Bridging-Header.h";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -5441,7 +5481,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -5498,7 +5538,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -5551,7 +5591,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -5606,7 +5646,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -5657,7 +5697,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -5713,7 +5753,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -5765,7 +5805,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -5821,7 +5861,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -5890,7 +5930,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BraintreePayPal/PayPalOneTouchCore",
@@ -5933,7 +5973,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BraintreePayPal/PayPalOneTouchCore",
@@ -5965,7 +6005,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -6024,7 +6064,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -6097,7 +6137,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6135,7 +6175,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6179,7 +6219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PayPalDataCollector/Risk",
@@ -6222,7 +6262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PayPalDataCollector/Risk",
@@ -6253,7 +6293,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -6309,7 +6349,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -6348,12 +6388,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(TARGET_TYPE)/$(PRODUCT_NAME)/Supporting Files/$(PRODUCT_NAME)-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
@@ -6373,16 +6431,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(TARGET_TYPE)/$(PRODUCT_NAME)/Supporting Files/$(PRODUCT_NAME)-Info.plist";
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGET_TYPE = Specs;
 				WARNING_CFLAGS = (
 					"-Wall",
@@ -6507,7 +6584,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -6566,7 +6643,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -6621,7 +6698,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -6676,7 +6753,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -6727,7 +6804,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -6782,7 +6859,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -6928,7 +7005,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -6987,7 +7064,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -7042,7 +7119,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -7097,7 +7174,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -7148,7 +7225,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -7204,7 +7281,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

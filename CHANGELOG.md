@@ -1,5 +1,47 @@
 # Braintree iOS SDK Release Notes
 
+## 4.8.1 (2017-04-07)
+
+* Optimize BTAPIClient:initWithAuthorization: when using a client token
+* Fix invalid documentation tags
+
+## 4.8.0 (2017-03-30)
+
+* Enable PayPal Credit
+* Add support for `displayName` and `landing_page_type` PayPal options
+* Fix issue with 3DS error callbacks [#318](https://github.com/braintree/braintree_ios/issues/318)
+* Resolve build error in Xcode 8.3
+
+## 4.7.5 (2017-02-22)
+
+* Fix issue where PayPal correlation_id was not set correctly
+* Add support for custom PayPal authentication handler
+* Update docs to specify Xcode 8+ requirement
+* Fix header import in BTAnalyticsMetadata.m
+* Additional tuning for Travis CI
+
+## 4.7.4 (2017-01-13)
+
+* Update UnitTests to Swift 3
+* Update PayPal header docs
+* Update CocoaDocs and remove styling
+
+## 4.7.3 (2016-11-18)
+
+* Allow `BraintreeCore` to be compatible with App Extensions
+* Fix `BraintreePayPal` use of `queryItems` for iOS 7 compatibility
+* Present SFSafariViewControllers from the top UIViewController via Drop-in to avoid blank SFSafariViewController
+  * Set `BTPaymentRequest` `presentViewControllersFromTop` to `YES` to opt in to this behavior
+* Fix `@param` warning for incorrect argument name
+* Fix CocoaDocs and add styling
+
+## 4.7.2 (2016-11-08)
+
+* Update Apple-Pay
+  * Fix issue when using `BTConfiguration:applePaySupportedNetworks` with `Discover` enabled on devices `<iOS 9`
+  * Add `BTApplePayClient:paymentRequest:` - creates a `PKPaymentRequest` with values from your Braintree Apple Pay configuration
+* Update documentation and README
+
 ## 4.7.1 (2016-10-18)
 
 * Update to Kount 3.1
