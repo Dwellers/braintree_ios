@@ -283,6 +283,8 @@
 		844ED5E71BCC3F0B002B590C /* BTDataCollector_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844ED5E61BCC3F0B002B590C /* BTDataCollector_Tests.swift */; };
 		848470E21BE81893009B12AE /* BTFakeHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 848470E11BE81893009B12AE /* BTFakeHTTP.m */; };
 		8498EC1B1BB46D4B007FFDEC /* BTCardClient_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8498EC1A1BB46D4B007FFDEC /* BTCardClient_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		86A370621EA816BE00A54C4C /* BTUICardType.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A370611EA816BE00A54C4C /* BTUICardType.h */; };
+		86A370641EA81CDC00A54C4C /* BTUILocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A370631EA81CDC00A54C4C /* BTUILocalizedString.h */; };
 		A50C3AF31C19F07B00612D90 /* PPOTCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A50C3AA01C19E6A200612D90 /* PPOTCore.h */; };
 		A50C3AF41C19F07B00612D90 /* PPOTResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A50C3AA11C19E6A200612D90 /* PPOTResult.h */; };
 		A50C3AF51C19F07B00612D90 /* PPOTRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A50C3AA21C19E6A200612D90 /* PPOTRequest.h */; };
@@ -426,14 +428,12 @@
 		A76D7C3B1BB31A4B0000FA6A /* libDeviceCollectorLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A76D7C271BB1D31A0000FA6A /* libDeviceCollectorLibrary.a */; };
 		A77120521CD95DD50004FFD3 /* BraintreeCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C889901B5F043B007A0E9C /* BraintreeCard.framework */; };
 		A77344FA1B7A93A10083EC8D /* BraintreeUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A77344F91B7A93A10083EC8D /* BraintreeUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A77345891B7A93D00083EC8D /* BTUILocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345071B7A93D00083EC8D /* BTUILocalizedString.h */; };
 		A773458A1B7A93D00083EC8D /* BTUILocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345081B7A93D00083EC8D /* BTUILocalizedString.m */; };
 		A773458B1B7A93D00083EC8D /* UI.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77345091B7A93D00083EC8D /* UI.strings */; };
 		A773458C1B7A93D00083EC8D /* BTUICardExpirationValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345201B7A93D00083EC8D /* BTUICardExpirationValidator.h */; };
 		A773458D1B7A93D00083EC8D /* BTUICardExpirationValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345211B7A93D00083EC8D /* BTUICardExpirationValidator.m */; };
 		A773458E1B7A93D00083EC8D /* BTUICardExpiryFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345221B7A93D00083EC8D /* BTUICardExpiryFormat.h */; };
 		A773458F1B7A93D00083EC8D /* BTUICardExpiryFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345231B7A93D00083EC8D /* BTUICardExpiryFormat.m */; };
-		A77345901B7A93D00083EC8D /* BTUICardType.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345241B7A93D00083EC8D /* BTUICardType.h */; };
 		A77345911B7A93D00083EC8D /* BTUICardType.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345251B7A93D00083EC8D /* BTUICardType.m */; };
 		A77345921B7A93D00083EC8D /* BTUIUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A77345261B7A93D00083EC8D /* BTUIUtil.h */; };
 		A77345931B7A93D00083EC8D /* BTUIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A77345271B7A93D00083EC8D /* BTUIUtil.m */; };
@@ -1222,6 +1222,8 @@
 		848470E01BE816DF009B12AE /* BTFakeHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTFakeHTTP.h; sourceTree = "<group>"; };
 		848470E11BE81893009B12AE /* BTFakeHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTFakeHTTP.m; sourceTree = "<group>"; };
 		8498EC1A1BB46D4B007FFDEC /* BTCardClient_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCardClient_Internal.h; sourceTree = "<group>"; };
+		86A370611EA816BE00A54C4C /* BTUICardType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUICardType.h; sourceTree = "<group>"; };
+		86A370631EA81CDC00A54C4C /* BTUILocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUILocalizedString.h; sourceTree = "<group>"; };
 		A3D9C499891AB1363F3E1290 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50C3A921C19E65700612D90 /* PPFPTIData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPFPTIData.h; path = BraintreePayPal/PayPalOneTouch/Analytics/PPFPTIData.h; sourceTree = "<group>"; };
 		A50C3A931C19E65700612D90 /* PPFPTIData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPFPTIData.m; path = BraintreePayPal/PayPalOneTouch/Analytics/PPFPTIData.m; sourceTree = "<group>"; };
@@ -1399,7 +1401,6 @@
 		A76D7C331BB21CE90000FA6A /* BraintreeDataCollector_IntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraintreeDataCollector_IntegrationTests.m; sourceTree = "<group>"; };
 		A77344F71B7A93A10083EC8D /* BraintreeUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BraintreeUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77344F91B7A93A10083EC8D /* BraintreeUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BraintreeUI.h; sourceTree = "<group>"; };
-		A77345071B7A93D00083EC8D /* BTUILocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUILocalizedString.h; sourceTree = "<group>"; };
 		A77345081B7A93D00083EC8D /* BTUILocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUILocalizedString.m; sourceTree = "<group>"; };
 		A773450A1B7A93D00083EC8D /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/UI.strings; sourceTree = "<group>"; };
 		A773450B1B7A93D00083EC8D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/UI.strings; sourceTree = "<group>"; };
@@ -1426,7 +1427,6 @@
 		A77345211B7A93D00083EC8D /* BTUICardExpirationValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUICardExpirationValidator.m; sourceTree = "<group>"; };
 		A77345221B7A93D00083EC8D /* BTUICardExpiryFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUICardExpiryFormat.h; sourceTree = "<group>"; };
 		A77345231B7A93D00083EC8D /* BTUICardExpiryFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUICardExpiryFormat.m; sourceTree = "<group>"; };
-		A77345241B7A93D00083EC8D /* BTUICardType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUICardType.h; sourceTree = "<group>"; };
 		A77345251B7A93D00083EC8D /* BTUICardType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUICardType.m; sourceTree = "<group>"; };
 		A77345261B7A93D00083EC8D /* BTUIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUIUtil.h; sourceTree = "<group>"; };
 		A77345271B7A93D00083EC8D /* BTUIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUIUtil.m; sourceTree = "<group>"; };
@@ -2149,6 +2149,8 @@
 		412FE0581B97A7F6008AAABE /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				86A370631EA81CDC00A54C4C /* BTUILocalizedString.h */,
+				86A370611EA816BE00A54C4C /* BTUICardType.h */,
 				A77344F91B7A93A10083EC8D /* BraintreeUI.h */,
 				A77345F51B7A9E340083EC8D /* BTDropInViewController.h */,
 				A77345F71B7A9E340083EC8D /* BTPaymentButton.h */,
@@ -2774,7 +2776,6 @@
 		A77345061B7A93D00083EC8D /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				A77345071B7A93D00083EC8D /* BTUILocalizedString.h */,
 				A77345081B7A93D00083EC8D /* BTUILocalizedString.m */,
 				A77345091B7A93D00083EC8D /* UI.strings */,
 			);
@@ -2789,7 +2790,6 @@
 				A77345211B7A93D00083EC8D /* BTUICardExpirationValidator.m */,
 				A77345221B7A93D00083EC8D /* BTUICardExpiryFormat.h */,
 				A77345231B7A93D00083EC8D /* BTUICardExpiryFormat.m */,
-				A77345241B7A93D00083EC8D /* BTUICardType.h */,
 				A77345251B7A93D00083EC8D /* BTUICardType.m */,
 				A77345261B7A93D00083EC8D /* BTUIUtil.h */,
 				A77345271B7A93D00083EC8D /* BTUIUtil.m */,
@@ -3339,7 +3339,6 @@
 				A77345B21B7A93D00083EC8D /* BTUICardCvvField.h in Headers */,
 				A77345D41B7A93D00083EC8D /* BTUICVVFrontVectorArtView.h in Headers */,
 				A77345D61B7A93D00083EC8D /* BTUIDinersClubVectorArtView.h in Headers */,
-				A77345891B7A93D00083EC8D /* BTUILocalizedString.h in Headers */,
 				A773461A1B7A9E340083EC8D /* BTDropInUtil.h in Headers */,
 				A77345921B7A93D00083EC8D /* BTUIUtil.h in Headers */,
 				A77345BC1B7A93D00083EC8D /* BTUICardHint.h in Headers */,
@@ -3361,11 +3360,11 @@
 				A773461C1B7A9E340083EC8D /* BTDropInViewController.h in Headers */,
 				A77345E61B7A93D00083EC8D /* BTUIVenmoWordmarkVectorArtView.h in Headers */,
 				A77345E01B7A93D00083EC8D /* BTUIPayPalMonogramCardView.h in Headers */,
+				86A370621EA816BE00A54C4C /* BTUICardType.h in Headers */,
 				A7F17A001BE98E1E00E91646 /* BTPaymentRequest.h in Headers */,
 				A77345CA1B7A93D00083EC8D /* BTUIAmExVectorArtView.h in Headers */,
 				A70241BD1C5A9A2F00875DB8 /* BTUIPayPalCompactButton.h in Headers */,
 				A773458C1B7A93D00083EC8D /* BTUICardExpirationValidator.h in Headers */,
-				A77345901B7A93D00083EC8D /* BTUICardType.h in Headers */,
 				A77345C01B7A93D00083EC8D /* BTUICTAControl.h in Headers */,
 				A77345C21B7A93D00083EC8D /* BTUIPaymentMethodView.h in Headers */,
 				A773461E1B7A9E340083EC8D /* BTPaymentButton.h in Headers */,
@@ -3381,6 +3380,7 @@
 				A77345DA1B7A93D00083EC8D /* BTUIJCBVectorArtView.h in Headers */,
 				A77345D01B7A93D00083EC8D /* BTUICoinbaseWordmarkVectorArtView.h in Headers */,
 				A77345C61B7A93D00083EC8D /* BTUISummaryView.h in Headers */,
+				86A370641EA81CDC00A54C4C /* BTUILocalizedString.h in Headers */,
 				A77345951B7A93D00083EC8D /* BTUI.h in Headers */,
 				A77346161B7A9E340083EC8D /* BTDropInErrorState.h in Headers */,
 			);
